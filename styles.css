@@ -1,0 +1,181 @@
+/* =============================================================================
+Global Styles
+================================================================================ */
+body{
+    color: #343434;
+    margin:0;
+    padding:0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header h1{
+    font-size: 3.5em;
+    text-align: center;
+}
+
+/* h1{
+    font-size: 2.5em;
+    margin: 1em 0;
+} */
+
+h2{
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'Source Serif Pro', serif;
+}
+
+h3{
+    margin-bottom: 0;
+}
+h3 + p{
+    font-style: italic;
+}
+h3 ~ p{
+    margin: 0;
+}
+
+p{
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+a{
+    text-decoration: none;
+    color: #dd3265;
+}
+a:hover{
+    text-decoration: underline;
+    color: #dd3265;
+}
+a:visited{
+    text-decoration: none;
+    color: #dd3265;
+}
+
+/**
+* center_fit class intends to center pictures within their grid
+*/
+.center_fit{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+/**
+* header_image class to restrict the maximum size of the image relative to the users'
+* screens.
+*/
+.header_image{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 60%;
+}
+.header_image .center_fit{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+} 
+
+
+/**
+* content_wrap class is to manage padding and margins of different sections that go 
+* after one another.
+*/
+.content_wrap{
+    width: 50em;
+    margin: 0 auto;
+    padding: 0.5em 0;
+}
+
+.caption{
+    margin: 0;
+    padding: 0;
+}
+/* =============================================================================
+Navigation panel
+================================================================================ */
+.navigation{
+    background: #e4e4e4;
+}
+.navigation .panel{
+    padding: 0.5em;
+    margin:auto;
+    height: 1.5em;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.navigation li{
+    text-align: center;
+}
+.navigation .btn{
+    text-decoration: none;
+    color: #dd3265;
+}
+.navigation .btn:hover{
+    text-decoration: underline;
+    color: #dd3265;
+}
+.navigation .btn:visited{
+    text-decoration: none;
+    color: #dd3265;
+}
+
+/* =============================================================================
+Group members page
+================================================================================ */
+.member{
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    row-gap: 0.5em;
+}
+
+.member_picture{
+    display: flex;
+}
+.member_picture img{
+    height: 12rem;
+}
+
+.member_details p{
+    text-align: justify;
+    padding: 0 0.8em;
+}
+
+.recruiting{
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.recruiting h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* =============================================================================
+Research page
+================================================================================ */
+.research_description p{
+    text-align: justify;
+}
+
+/* =============================================================================
+Contact page
+================================================================================ */
+.contact_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact_info ul{
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+#map{
+    height: 5em;
+    width: 100%;
+}
