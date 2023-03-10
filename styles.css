@@ -126,6 +126,29 @@ Navigation panel
 /* =============================================================================
 Slideshow styles
 ================================================================================ */
+.gallery{
+    /* to show the whole iframe */
+    overflow: hidden; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position:fixed;
+
+    /* to center the iframe */
+    margin: auto; 
+    display: block;
+    top: 10rem;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    /* to specify maximum size */
+    width: 50%; 
+    height: 77%;
+
+    /* to modify border characteristics */
+    border-width: 0px;
+}
+
 .slideshow{
     position: relative;
     box-sizing: border-box;
