@@ -6,6 +6,7 @@ body{
     margin:0;
     padding:0;
     font-family: 'Source Sans Pro', sans-serif;
+    background: #f8f6f6;
 }
 
 header h1{
@@ -101,18 +102,23 @@ Navigation panel
     background: #ededed;
 }
 .navigation .panel{
-    padding: 0.1em;
+    padding: 0.5em;
     margin:auto;
-    /* height: 0.5em; */
+    /* height: 1.5em; */
     list-style-type: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .navigation li{
     text-align: center;
+    vertical-align: middle;
+}
+.navigation img{
+    height:2rem;
 }
 .navigation .btn{
     text-decoration: none;
+    vertical-align: middle;
     color: #fb467c;
 }
 .navigation .btn:hover{
@@ -243,7 +249,7 @@ Group members page
 }
 
 .past_members_list{
-    background: #f6f4f4;
+    background: #e2e1e1;
 }
 .past_member{
     margin:1.5em 0;
