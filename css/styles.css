@@ -298,3 +298,36 @@ Contact page
     height: 5em;
     width: 100%;
 }
+
+/* =============================================================================
+Blogpost page
+================================================================================ */
+.blogpost{
+    background: #f7f7f7;
+}
+.blogpost .content_title{
+    background-color: #222;
+    color: #dd3265;
+}
+.blogpost h2{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0%;
+}
+.blogpost h3{
+    margin-top: 0%;
+}
+.blogpost p{
+    /* margin-block-end: 0%; */
+    margin-top: 0%;
+    margin-bottom: 1rem;
+}
+.blogpost a{
+    color: #6b102b;
+}
+.blogpost em{
+    color: #99133b;
+}
+.blogpost .month{
+    border-style:ridge;
+}
