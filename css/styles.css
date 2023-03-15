@@ -104,10 +104,13 @@ Navigation panel
 .navigation .panel{
     padding: 0.5em;
     margin:auto;
-    /* height: 1.5em; */
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 .navigation li{
     text-align: center;
@@ -158,11 +161,17 @@ Slideshow styles
 .slideshow{
     position: relative;
     box-sizing: border-box;
+    background-color: #222;
 }
 
 .slide{
     display: none;
     box-sizing: border-box;
+}
+.slide img{
+    height: 25.5em;
+    display: block;
+    margin: auto;
 }
 
 .cursor{
@@ -219,6 +228,7 @@ Slideshow styles
 /* Add a transparency effect for thumnbail images */
 .demo {
     opacity: 0.6;
+    max-height: 4.0rem;
 }
   
 .active,
