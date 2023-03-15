@@ -158,11 +158,17 @@ Slideshow styles
 .slideshow{
     position: relative;
     box-sizing: border-box;
+    background: #141414;
 }
 
 .slide{
     display: none;
     box-sizing: border-box;
+}
+.slide img{
+    height: 25.5em;
+    display: block;
+    margin: auto;
 }
 
 .cursor{
@@ -219,6 +225,7 @@ Slideshow styles
 /* Add a transparency effect for thumnbail images */
 .demo {
     opacity: 0.6;
+    max-height: 4.0rem;
 }
   
 .active,
@@ -302,6 +309,26 @@ Contact page
 /* =============================================================================
 Blogpost page
 ================================================================================ */
+/* .search_bar{
+    text-align: center;
+} */
+/* Logic to toggle on and off the years available for news */
+.year_selector p{
+    text-align: center;
+}
+.year_2023{
+    display: none;
+}
+.year_2023.active{
+    display: block;
+}
+.year_2022{
+    display: none;
+}
+.year_2022.active{
+    display: block;
+}
+
 .blogpost{
     background: #f7f7f7;
 }
