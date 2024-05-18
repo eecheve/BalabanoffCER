@@ -1,0 +1,34 @@
+[
+  {
+    "id": "04",
+    "name": "Claire Ward",
+    "degree": "Chemist, B.Sc. (2023)",
+    "year": "2023",
+    "research": "Research focused on qualitative analysis of focus groups to understand variables that influence retention and belonging in STEM carreers.",
+    "picture": "../images/Ward_picture.jpg" 
+  },
+  {
+    "id": "03",
+    "name": "Karen Julian",
+    "degree": "Chemist, B.Sc. (2023)",
+    "year": "2023",
+    "research": "Research focused on qualitative analysis of focus groups to understand variables that influence retention and belonging in STEM carreers.",
+    "picture": "../images/Julian_picture.png" 
+  },
+  {
+    "id": "02",
+    "name": "Sanjana Nasta",
+    "degree": "Chemist, B.Sc. (2022)",
+    "year": "2022",
+    "research": "Research focused on atomic structure epistemic modeling knowledge exploration of general chemistry textbooks.",
+    "picture": "../images/placeholder_picture.png" 
+  },
+  {
+    "id": "01",
+    "name": "Rachel Berberich",
+    "degree": "Chemist, B.Sc. (2022)",
+    "year": "2022",
+    "research": "Research focused on atomic structure epistemic modeling knowledge exploration of general chemistry textbooks.",
+    "picture": "../images/Berberich_picture.jpg" 
+  }
+]
