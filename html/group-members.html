@@ -10,7 +10,8 @@
 	<link href="../css/styles.css" rel="stylesheet">
   <script type="module" src="../js/nav.js"></script>
   <script type="module" src="../js/past_members.js"></script>
-  <!-- <script type="module" src="../js/form.js"></script> -->
+  <script type="module" src="../js/current_members.js"></script>
+  <script type="module" src="../js/recruitment_form.js"></script>
 </head>
 
 <body>
@@ -41,39 +42,7 @@
             <img class="center_fit" src="../images/Balabanoff_picture.jpg" alt="Morgan Balabanoff's picture">
           </section>
         </div>
-        <div class="member">
-          <section class="member_details">
-            <h3 id="Echeverri-Jimenez">Emmanuel Echeverri-Jimenez</h3>
-            <em>Postdoctoral researcher</em>
-            <p>Emmanuel finished his Ph.D. in Chemistry at Noth Carolina State University in 2022. He is currently working on the exploration of students' epistemic knowledge in the context of atomic modeling, and in the development of an atomic orbital modeling instructional resource.</p>
-            <p>Email me: <a href="mailto:e0eche02@louisville.edu">emmanuel.echeverrijimenez@louisville.edu</a></p>
-          </section>
-          <section class="member_picture">
-            <img class="center_fit" src="../images/Echeverri_picture.jpg" alt="Emmanuel's picture">
-          </section>
-        </div>
-        <div class="member">
-          <section class="member_details">
-            <h3 id="Koevoets-Beach">Cassie Koevoets-Beach</h3>
-            <em>Graduate Student</em>
-            <p>Cassie earned her B.S. in Chemistry from Indiana University Southeast in 2021, with a concentration in Biochemistry and a minor in Environmental Chemistry. She joined the Balabanoff Group in January 2022 and is interested in instrument design, student confidence, and chemistry identity in health science student populations. She is passionate about cheese danishes, thrift stores, her husband, son, and two spoiled dogs.</p>
-            <p>Email me: <a href="mailto:casandra.koevoets.2@louisville.edu">casandra.koevoets.2@louisville.edu</a></p>
-          </section>
-          <section class="member_picture">
-            <img class="center_fit" src="../images/Koevoets-Beach_picture.jpg" alt="Cassie Koevoets-Beach's picture">
-          </section>
-        </div>
-        <div class="member">
-          <section class="member_details">
-            <h3 id="Humphreys">Taylor Humphreys</h3>
-            <em>Undergraduate Student</em>
-            <p>Taylor is a third-year undergraduate student earning her B.A. in Biology on a premedical track at the University of Louisville. Her long term goals include obtaining her M.D. and working in the field of Emergency Medicine. She joined the Balabanoff Group in March 2022 and is excited to dive into the world of research. In her spare time she enjoys dancing, watching movies, and spending time with her pug.</p>
-            <p>Email me: <a href="mailto:taylor.humphreys@louisville.edu">taylor.humphreys@louisville.edu</a></p>
-          </section>
-          <section class="member_picture">
-            <img class="center_fit" src="../images/Humphreys_picture.jpg" alt="Taylor Humphreys's picture">
-          </section>
-        </div>
+        <!-- Rest of the section populated by "current_members.js" -->
       </div>
     </section>
     
@@ -84,7 +53,23 @@
     <section class="recruiting">
       <div class="content_wrap">
         <h2>Want to work with us?</h2>
-        <!-- <section class="google_form"></section> -->
+        <!-- <form action="signup.html" method="post" id="contact_us">
+          <div class="field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your fullname"/>
+            <small></small>
+          </div>
+          <div class="field">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email address" />
+            <small></small>
+          </div>
+          <div class="field">
+            <label for="message">Message (optional):</label>
+            <textarea id="message" name="message" rows="5", cols="50" placeholder="write a message here (optional)"></textarea>
+          </div>
+        </form>
+        <button type="submit" id="submit" class="full">Contact Us!</button> -->
       </div>
     </section>
   </main>

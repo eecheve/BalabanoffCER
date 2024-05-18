@@ -1,0 +1,26 @@
+[
+  {
+    "id": "03",
+    "name": "Emmanuel Echeverri-Jimenez",
+    "degree": "Postdoctoral Researcher",
+    "description": "Emmanuel finished his Ph.D. in Chemistry at Noth Carolina State University in 2022. He is currently working on the exploration of students' epistemic knowledge in the context of atomic modeling, and in the development of an atomic orbital modeling instructional resource.",
+    "picture": "../images/Echeverri_picture.jpg",
+    "email": "emmanuel.echeverrijimenez@louisville.edu@louisville.edu" 
+  },
+  {
+    "id": "02",
+    "name": "Salawat Lateef",
+    "degree": "Graduate Student",
+    "description": "Salawat is interested in investigating the challenges STEM students encounter throughout their education. She earned my BSc. in Chemistry Education from the University of Ilorin, Nigeria in 2017 and moved to the US in 2022 for advanced studies. Salawat officially joined the Balabanoff group in the Summer of 2023. Her interests span across policy development to better support students across STEM classrooms.",
+    "picture": "../images/Lateef_picture.jpg",
+    "email": "salawat.lateef@louisville.edu@louisville.edu" 
+  },
+  {
+    "id": "01",
+    "name": "Cas Koevoets-Beach",
+    "degree": "Graduate Student",
+    "description": "Cas earned her B.S. in Chemistry from Indiana University Southeast in 2021, with a concentration in Biochemistry and a minor in Environmental Chemistry. She joined the Balabanoff Group in January 2022 and is interested in instrument design, student confidence, and chemistry identity in health science student populations. She is passionate about cheese danishes, thrift stores, her husband, son, and two spoiled dogs.",
+    "picture": "../images/Koevoets-Beach_picture.jpg",
+    "email": "casandra.koevoets.2@louisville.edu" 
+  }
+]
