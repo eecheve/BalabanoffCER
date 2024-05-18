@@ -98,6 +98,11 @@ a:visited{
 /* =============================================================================
 Navigation panel
 ================================================================================ */
+.nav_panel{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
 .navigation{
     background: #ededed;
 }
@@ -106,11 +111,8 @@ Navigation panel
     margin:auto;
     list-style-type: none;
     display: grid;
+    /* grid-template-rows: 1fr 1fr; */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
-    position: sticky;
-    top: 0;
-    z-index: 9999;
 }
 .navigation li{
     text-align: center;
@@ -228,7 +230,7 @@ Slideshow styles
 /* Add a transparency effect for thumnbail images */
 .demo {
     opacity: 0.6;
-    max-height: 4.0rem;
+    max-height: 3.3rem;
 }
   
 .active,
@@ -294,14 +296,14 @@ Research page
 /* =============================================================================
 Contact page
 ================================================================================ */
-.contact_info{
+/* .contact_info{
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+} */
 
 .contact_info ul{
     list-style-type: none;
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 #map{
