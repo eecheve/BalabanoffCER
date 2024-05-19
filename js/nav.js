@@ -6,6 +6,7 @@ const navContent =`
   <li><a class="btn" href="../html/news.html">News</a></li>
   <li><a class="btn" href="../html/publications.html">Publications</a></li>
   <li><a class="btn" href="../html/contact.html">Contact</a></li>
+  <li><a class="btn" href="../reaction_viewer/index.html">ReactView</a></li>
 `;
 
 const mainNav = document.createElement("nav");
@@ -17,9 +18,3 @@ navList.innerHTML = navContent;
 mainNav.append(navList);
 
 document.querySelector(".nav_panel").append(mainNav);
-
-/* <li></li>
-<li></li>
-<li></li>
-<li></li>
-<li><a href="https://louisville.edu/chemistry">Chemistry Department</a></li> */
