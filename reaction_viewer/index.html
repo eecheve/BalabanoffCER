@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Balabanoff's CER group reaction viewer">
+    <meta property="og:title" content="Molecule Viewer Version 0.1"/>
+    <meta property="og:description" content="Web app to visualize reactive coordinates of various organic reactions"/>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@v0.161.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@v0.161.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="/js/nav.js"></script>
+    <title>Balabanoff Group's React View V.1.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Source+Serif+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <link href="/reaction_viewer/style.css" rel="stylesheet">
+    <link href="icon" href="/reaction_viewer/public/icons/icon32.ico" type="image/x-icon">
+</head>
+<body>
+    <section class="nav_panel"></section>
+    <section class="reactview_header">
+        <header> Balabanoff Group's Reaction Viewer V.1.0 </header>
+    </section>
+    <section class="introduction"> 
+        <img src="/reaction_viewer/public/templates/overall_rxn.png" id="OverallReaction">
+        <ul>
+            <li>To your left you can see a schematic of an elimination reaction.</li>
+            <li>Below the schematic, a 3D model of the transition state can be found.</li>
+            <li>Drag the slider below the two images to move between ground state, transition state, and product.</li>
+            <li><strong>Notice: </strong><span class="buttonTextEmphasis" id="buttonTextEmphasis"> The 2D representation to the right changes both when you rotate the 3D model, and when moving back and forth between the ground state, the transition state, and the product.</span></li>
+        </ul>        
+    </section>
+    <section class="top_ui_panel">
+        <p><strong>Currently seeing: &nbsp; </strong><span id="currentlySeeingText">transition state</span></p>
+        <button type="button" id="2d_button">2D view</button>
+        <button type="button" id="irc_button">Reaction Coordinate</button>
+        <button type="button" id="about_button">About Simulation</button>
+    </section>
+    <section class="viewport">
+        <div id="webgl">
+            <script type="module" src="/reaction_viewer/main.js"></script>
+        </div>
+        <div class="viewport_companion" id="viewport_companion">
+            <script type="text/javascript" src="/reaction_viewer/js/libgif.js"></script>
+            <img src="/reaction_viewer/public/templates/right_gs.png" id="Viewport2DImage">
+            <div id="about_sim">
+                <p><strong>Getting the 3D animation to your left</strong><br>
+                The animation to your left is the reactive coordinate of a gas-phase transition state obtained using <a href="https://gaussian.com/gaussian16/">Gaussian 16</a>, following a density functional theory method, where instead of considering each electron individually, only electron density is considered.<br><br>
+                <em>Exchange-correlation energy functional</em>: This calculation used the m062x Minessota functional, suitable for calculations with Bromine and other heavy main-group elements <a href=https://doi.org/10.1007/s00214-007-0310-x target="_blank">[1]</a> (although it doesn't account for some London dispersion effects <a href=https://doi.org/10.1002/ange.202205735 target="_blank">[2]</a>).<br>
+                <em>Basis Set</em>: Sufficiently large atomic-orbital basis sets are required take advantage of the considerations within energy functionals. Ahlrich's def2-TZVP basis set<a href="https://doi.org/10.1063/1.3484283" target="_blank">[3]</a> has been recommended for anionic systems with heavy elements such as the animation in the left.</p>
+            </div>
+            <img src="/reaction_viewer/public/imports/gif/eb01/0050.png" id="ViewportIRCImage">
+        </div>
+     </section>
+     <section class="bottom_ui_panel">
+        <div class="slidercontainer">
+            <input type="range" min="0" max="100" value="50" class="slider" id="AnimationSlider">
+        </div>
+     </section>
+     <section class="description">
+        <p>Web app written by Emmanuel Echeverri-Jimenez for the Balabanoff Chemistry Education Research Group (2024)</p>
+     </section>
+</body>
+</html>
