@@ -1,6 +1,5 @@
 [
   {
-    "id": "03",
     "name": "Emmanuel Echeverri-Jimenez",
     "degree": "Postdoctoral Researcher",
     "description": "Emmanuel finished his Ph.D. in Chemistry at Noth Carolina State University in 2022. He is currently working on the exploration of students' epistemic knowledge in the context of atomic modeling, and in the development of an atomic orbital modeling instructional resource.",
@@ -8,7 +7,20 @@
     "email": "emmanuel.echeverrijimenez@louisville.edu@louisville.edu" 
   },
   {
-    "id": "02",
+    "name": "Cas Koevoets-Beach",
+    "degree": "Ph.D. Candidate",
+    "description": "Cas earned her B.S. in Chemistry from Indiana University Southeast in 2021, with a concentration in Biochemistry and a minor in Environmental Chemistry. She joined the Balabanoff Group in January 2022 and is interested in instrument design, student confidence, and chemistry identity in health science student populations. She is passionate about cheese danishes, thrift stores, her husband, son, and two spoiled dogs.",
+    "picture": "../images/Koevoets-Beach_picture.jpg",
+    "email": "casandra.koevoets.2@louisville.edu" 
+  },
+  {
+    "name": "Amanda Borden",
+    "degree": "Stockroom Manager & Graduate Student",
+    "description": "Amanda earned her BS in Chemistry from Georgetown College in 2007 under the supervision of Carnegie Foundations 2006 Chemistry Professor of the year Dr. Frank Wiseman. She began her post graduate career as a Quality Control Chemist at a cGMP regulated pharmaceutical company located in Paris, KY. After nearly a decade at the same company, she went to work for the Commonwealth of Kentucky where she served as the Coordinator of the Chemical Terrorism Response team and as an Environmental Chemist with Public Health. As part of her coordinator duties, she worked with the KY National Guard's WMD Civil Support Team, as well as the FBI. At both employers, Amanda’s work consisted of a wide variety of analytical testing using numerous instruments and testing compendia. She is currently working as the Chemistry & Safety Stockroom Manager at UofL while pursuing her MS in Chemistry under the supervision of Dr. Andrew Wilson and Dr. Morgan Balabanoff.",
+    "picture": "../images/Borden_picture.jpg",
+    "email": "amanda.borden@louisville.edu@louisville.edu" 
+  },
+  {
     "name": "Salawat Lateef",
     "degree": "Graduate Student",
     "description": "Salawat is interested in investigating the challenges STEM students encounter throughout their education. She earned my BSc. in Chemistry Education from the University of Ilorin, Nigeria in 2017 and moved to the US in 2022 for advanced studies. Salawat officially joined the Balabanoff group in the Summer of 2023. Her interests span across policy development to better support students across STEM classrooms.",
@@ -16,11 +28,24 @@
     "email": "salawat.lateef@louisville.edu@louisville.edu" 
   },
   {
-    "id": "01",
-    "name": "Cas Koevoets-Beach",
+    "name": "Haley Palm",
     "degree": "Graduate Student",
-    "description": "Cas earned her B.S. in Chemistry from Indiana University Southeast in 2021, with a concentration in Biochemistry and a minor in Environmental Chemistry. She joined the Balabanoff Group in January 2022 and is interested in instrument design, student confidence, and chemistry identity in health science student populations. She is passionate about cheese danishes, thrift stores, her husband, son, and two spoiled dogs.",
-    "picture": "../images/Koevoets-Beach_picture.jpg",
-    "email": "casandra.koevoets.2@louisville.edu" 
+    "description": "Haley earned her B.S. in Chemistry from The Ohio State University in 2017 and her M.S. in Chemistry from the University of California, San Diego in 2022, where she studied inorganic materials. She joined the Balabanoff Group in January 2024 and is interested in how students and instructors understand assessments and improving the rigor and transparency of quantitative analysis in CER. When not fighting with code, Haley is most likely to be found with a book, a crossword puzzle, any number of textile crafts, or her partner and cats.",
+    "picture": "../images/Palm_picture.jpg",
+    "email": "hayley.palm@louisville.edu@louisville.edu" 
+  },
+  {
+    "name": "Emma Drake",
+    "degree": "Graduate Student",
+    "description": "Emma graduated in 2023 with a B.A. in Biology and PreMedical Studies and a minor in Medical Sociology when she realized her passion for chemistry and education, joining the Balabanoff Group in Spring 2024. Her main interest is how students learn organic chemistry, how they utilize modeling practices within the course and how to support them in these activities. In addition to chemistry, Emma also enjoys playing guitar, reading, and lifting.",
+    "picture": "../images/Drake_picture.jpg",
+    "email": "emma.drake@louisville.edu@louisville.edu" 
+  },
+  {
+    "name": "Daniel Mays",
+    "degree": "Postbaccalaureate Student",
+    "description": "Daniel earned his B.A. in Chemistry from the University of Louisville in 2024. He joined the Balabanoff Group in the summer of 2023. His research interest is student reasoning in organic chemistry. Outside of work, Daniel enjoys playing and watching baseball, soccer (the real football), and reading.",
+    "picture": "../images/Mays_picture.png",
+    "email": "daniel.mays@louisville.edu@louisville.edu" 
   }
 ]

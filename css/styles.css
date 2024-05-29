@@ -318,21 +318,25 @@ Blogpost page
 .year_selector p{
     text-align: center;
 }
+.year_selector li{
+    padding-bottom: 0.25rem;
+}
 
 .year_button{
     align-items: center;
     appearance: none;
-    background-color: #e7e7e7;
-    border-radius: 2.5rem;
+    background-color: rgb(46, 10, 16);
+    border-radius: 1rem;
     border-style: none;
     box-sizing: border-box;
-    color: #141414;
+    color: #f0f0f0;
     display: grid;
-    height: 1.5rem;
+    height: 2rem;
+    width: 4rem;
     cursor: pointer;
 }
 .year_button:hover{
-    color: #99133b;
+    color: #e74f7c;
 }
 
 /* aesthetics for the elements in the blog */
