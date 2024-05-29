@@ -1,6 +1,12 @@
 [
   {
-    "id": "05",
+    "name": "Hayley Benson",
+    "degree": "Chemist, B.Sc. (2023)",
+    "year": "2023",
+    "research": "Research focused on qualitative analysis of focus groups to understand variables that influence retention and belonging in STEM carreers.",
+    "picture": "../images/placeholder_picture.png" 
+  },
+  {
     "name": "Claire Ward",
     "degree": "Chemist, B.Sc. (2023)",
     "year": "2023",
@@ -8,7 +14,6 @@
     "picture": "../images/Ward_picture.jpg" 
   },
   {
-    "id": "04",
     "name": "Karen Julian",
     "degree": "Chemist, B.Sc. (2023)",
     "year": "2023",
@@ -16,7 +21,6 @@
     "picture": "../images/Julian_picture.png" 
   },
   {
-    "id": "03",
     "name": "Taylor Humbreys",
     "degree": "Chemist, B.Sc. (2022)",
     "year": "2022",
@@ -24,7 +28,6 @@
     "picture": "../images/placeholder_picture.png" 
   },
   {
-    "id": "02",
     "name": "Sanjana Nasta",
     "degree": "Chemist, B.Sc. (2022)",
     "year": "2022",
@@ -32,7 +35,6 @@
     "picture": "../images/placeholder_picture.png" 
   },
   {
-    "id": "01",
     "name": "Rachel Berberich",
     "degree": "Chemist, B.Sc. (2022)",
     "year": "2022",
