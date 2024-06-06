@@ -6,6 +6,8 @@ body{
     margin:0;
     padding:0;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     background: #f8f6f6;
 }
 
@@ -100,22 +102,33 @@ Navigation panel
 ================================================================================ */
 .nav_panel{
     position: sticky;
-    top: 0;
-    z-index: 9999;
-}
-.navigation{
     background: #ededed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%; /* to make sure nav is as wide as page container */
+    padding: 14px 0 0 0;
+}
+.nav_panel::after { 
+    content: '';
+    display: block;
+    clear: both;
 }
 .navigation .panel{
-    padding: 0.5em;
-    margin:auto;
+    /* padding: 0.5em; */
+    margin: 0;
+    padding: 0px;
     list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
 .navigation li{
     text-align: center;
     vertical-align: middle;
+    float: left;
+}
+.navigation li a {
+    padding: 10px 20px;
 }
 .navigation img{
     height:2rem;
@@ -126,8 +139,9 @@ Navigation panel
     color: #fb467c;
 }
 .navigation .btn:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: #dd3265;
+    background-color: #cccccc;
 }
 .navigation .btn:visited{
     text-decoration: none;
@@ -368,4 +382,34 @@ Blogpost page
 }
 .month{
     border-style:ridge;
+}
+
+/* =============================================================================
+Media Queries
+================================================================================ */
+@media screen and (max-width: 500px){
+    h1 {
+        font-size: 2.4em;
+    }
+
+    body{
+        font-size: 14px;
+    }
+
+    /* Landing page image gallery */
+    .gallery {
+        display: none;
+        visibility: hidden;
+    }
+
+    .content_wrap{
+        width: 25em;
+        margin: 0 auto;
+        padding: 0.5em 0;
+    }
+
+    /* Group members */
+    .member_picture img{
+        height: 6rem;
+    }
 }

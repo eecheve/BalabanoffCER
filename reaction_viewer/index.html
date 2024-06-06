@@ -30,7 +30,7 @@
     <section class="introduction"> 
         <img src="/reaction_viewer/public/templates/overall_rxn.png" id="OverallReaction">
         <ul>
-            <li>To your left you can see a schematic of an elimination reaction.</li>
+            <li><span id=firstDescription>To your left</span> you can see a schematic of an elimination reaction.</li>
             <li>Below the schematic, a 3D model of the transition state can be found.</li>
             <li>Drag the slider below the two images to move between ground state, transition state, and product.</li>
             <li><strong>Notice: </strong><span class="buttonTextEmphasis" id="buttonTextEmphasis"> The 2D representation to the right changes both when you rotate the 3D model, and when moving back and forth between the ground state, the transition state, and the product.</span></li>
@@ -65,6 +65,7 @@
      </section>
      <section class="description">
         <p>Web app written by Emmanuel Echeverri-Jimenez for the Balabanoff Chemistry Education Research Group (2024)</p>
+        <button type="button" id="home_button" onclick='window.location.href = "../index.html"'>Home</button>
      </section>
 </body>
 </html>

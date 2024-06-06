@@ -7,12 +7,13 @@ import ircImages from '/reaction_viewer/public/json/eb01.json' assert { type: 'j
 
 //** Reference vectors and scalars */
 const distanceFromOrigin = 10;
-const cameraOffset = 2;
+var cameraOffset = 2;
 const viewportSize = 0.5;
 const origin = new THREE.Vector3(0,0,0);
 const forward = new THREE.Vector3(1,0,0);
 const right = new THREE.Vector3(0,1,0);
 const up = new THREE.Vector3(0,0,1);
+const screenWidth = window.innerWidth;
 
 //** Reference materials */
 const forwardMat = new THREE.LineBasicMaterial({color: 0x58f941});
@@ -69,6 +70,7 @@ const buttonTextEmphasis = document.getElementById("buttonTextEmphasis");
 const button2D = document.getElementById("2d_button");
 const buttonIRC = document.getElementById("irc_button");
 const buttonAbout = document.getElementById("about_button");
+const firstDescription = document.getElementById("firstDescription");
 
 //** Button text descriptions */
 const button2DText = "The 2D representation to the right changes both when you rotate the 3D model, and when moving back and forth between the ground state, the transition state, and the product.";
@@ -89,7 +91,8 @@ function init(){
   
   //** Camera */
   camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, near, far);
-  camera.position.set(0,0,distanceFromOrigin-cameraOffset);
+  //camera.position.set(0,0,distanceFromOrigin-cameraOffset);
+  setCameraOffsetByScreenWidth(camera);
   scene.add(camera);
 
   //** Lights */
@@ -106,14 +109,15 @@ function init(){
   //** Renderer */
   renderer = new THREE.WebGLRenderer();
   renderer.shadowMap.enabled = true;
-  renderer.setSize(window.innerWidth*viewportSize, window.innerHeight*viewportSize);
+  setUIContentByScreenWidth(renderer);
+  //renderer.setSize(window.innerWidth*viewportSize, window.innerHeight*viewportSize);
   document.getElementById('webgl').appendChild(renderer.domElement);
  
   //** Controls */
   controls = new OrbitControls(camera, renderer.domElement);
  
   //** UI */
-  changeButtonColors(button2D, buttonAbout, buttonIRC);
+   changeButtonColors(button2D, buttonAbout, buttonIRC);
   aboutSim.style.display = 'none';
   viewportIRCImage.style.display = 'none';
     
@@ -316,6 +320,35 @@ function changeButtonColors(bOn, bOff1, bOff2){
   bOff2.style.background = "#ddddddff";
 }
 
+function setCameraOffsetByScreenWidth(camera){
+  if(window.innerWidth < 500) {
+    cameraOffset = -1;
+  }
+  else{
+    cameraOffset = 2;
+  }
+  camera.position.set(0,0,distanceFromOrigin-cameraOffset);
+}
+
+function setUIContentByScreenWidth(renderer){
+  if(window.innerWidth < 500){
+    firstDescription.innerHTML = "Above you";
+    button2D.innerHTML = "2D";
+    buttonIRC.innerHTML = "IRC";
+    buttonAbout.innerHTML = "About";
+    renderer.setSize(window.innerWidth*viewportSize*1.15, window.innerHeight*viewportSize*0.7);
+  }
+  else{
+    firstDescription.innerHTML = "To your left";
+    button2D.innerHTML = "2D View";
+    buttonIRC.innerHTML = "Reaction Coordinate";
+    buttonAbout.innerHTML = "About Simulation";
+    viewportSize = 0.5; //viewport occupies half of the screen
+    renderer.setSize(window.innerWidth*viewportSize, window.innerHeight*viewportSize);
+  }
+  
+}
+
 function view2DClick(){
   changeButtonColors(button2D, buttonAbout, buttonIRC);
   controls.reset();
@@ -405,6 +438,7 @@ function loadFBXObject(objectName, objectPath, globalPosition, globalRotation, r
 
 function onClick(event){
   console.log('clicked');
+  console.log(window.innerWidth);
 }
 
 if ( WebGL.isWebGLAvailable() ) {

@@ -5,6 +5,8 @@ Navigation panel
   position: sticky;
   top: 0;
   z-index: 9999;
+  display: block;
+  visibility: visible;
 }
 .navigation{
   background: #222222;
@@ -197,4 +199,95 @@ h1 {
   }
 .description p {
   margin: 0;
+}
+.description button {
+  display: none;
+  visibility: hidden;
+}
+
+/* =============================================================================
+Media Queries
+================================================================================ */
+@media screen and (max-width: 500px){
+  /* navigation panel */
+  .nav_panel{
+    display: none;
+    visibility: hidden;
+  }
+  
+  header {
+    font-size: 1.5rem;
+  }
+  h1 {
+      font-size: 1.3em;
+  }
+
+  body{
+      font-size: 13.5px;
+  }
+
+  .content_wrap{
+      width: 25em;
+      margin: 0 auto;
+      padding: 0.5em 0;
+  }
+
+  /* Task description */
+  .introduction {
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    row-gap: 0px;
+  }
+  .introduction img{
+    width: 24rem;
+  }
+  .introduction ul {
+    position: inherit;
+    top:0%;
+  }
+
+  /* Top UI panel */
+  .top_ui_panel {
+    background-color: rgb(2, 36, 33);
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-left: 0.5rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    height: 1.5rem;
+  }
+  .top_ui_panel p{
+    height: 0.8rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+  .top_ui_panel button {
+    /* padding: 0.4rem; */
+    cursor: pointer;
+    transition-duration: 0.4s;
+    height: 1.5rem;
+    font-size: 0.5rem;
+  }
+
+  /* Viewport */
+  .viewport_companion{
+    height: 11rem;
+    width: 11rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+  }
+
+  /* Description */
+  .description button {
+    display: block;
+    visibility: visible;
+  }
 }
