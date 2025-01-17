@@ -3,12 +3,12 @@ import WebGL from 'three/addons/capabilities/WebGL.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { FBXLoader} from 'three/addons/loaders/FBXLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import ircImages from '/reaction_viewer/public/json/eb01.json' assert { type: 'json' }
+import ircImages from '/reaction_viewer/public/json/eb01.json' with { type: 'json' }
 
 //** Reference vectors and scalars */
 const distanceFromOrigin = 10;
 var cameraOffset = 2;
-const viewportSize = 0.5;
+var viewportSize = 0.5;
 const origin = new THREE.Vector3(0,0,0);
 const forward = new THREE.Vector3(1,0,0);
 const right = new THREE.Vector3(0,1,0);

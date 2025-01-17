@@ -1,90 +1,128 @@
 [
   {
+    "year": "",
+    "month": "",
+    "title": "",
+    "date": "",
+    "description": ""
+  },
+  {
+    "year": "2024",
+    "month": "April",
+    "title": "Successful literature seminar for Amanda!",
+    "date": "04/24/2024",
+    "description": "<b>Amanda Borden</b> passed her literature seminar. Congratulations!"
+  },
+  {
+    "year": "2024",
+    "month": "April",
+    "title": "Successful literature seminar for Salawat!",
+    "date": "04/04/2024",
+    "description": "<b>Salawat Lateef</b> passed her literature seminar. Congratulations!"
+  },
+  {
+    "year": "2024",
+    "month": "January",
+    "title": "Southeastern STEM Education Research Conference",
+    "date": "01/12/2024 - 01/13/2024",
+    "description": "The Balabanoff Group attended the 2024 Southeastern STEM Education Research Conference."
+  },
+  {
+    "year": "2023",
+    "month": "August",
+    "title": "Student confidence studied!",
+    "date": "08/15/23",
+    "description": "<b>Cas Koevoets</b>, <b>Karen Julian</b>, and <b>Morgan Balabanoff</b> published in the <b>Chemistry Education Research and Practice</b> journal. The work is titled: '<em>I guess it was more than just my general knowledge of chemistry: exploring students’ confidence judgments in two-tiered assessments</em>'"
+  },
+  {
+    "year": "2023",
+    "month": "May",
+    "title": "Welcome the new Graduate Student!",
+    "date": "05/01/2023",
+    "description": "<b>Salawat Lateef</b> joined the group as a graduate student researcher. Welcome Salawat!"
+  },
+  {
+    "year": "2023",
+    "month": "April",
+    "title": "Undergraduate Arts & Research Showcase",
+    "date": "04/21/2023",
+    "description": "<b>Claire Ward</b> presented her work on <em>Students' understanding of atomic structure models</em>"
+  },
+  {
     "year": "2023",
     "month": "April",
     "title": "Dr. Ryan Stowe visit",
     "date": "4/14/2023",
-    "description": "Dr. Ryan Stowe visited the University of Louisville for seminar on April 14th, 2023.",
-    "image": "/images/placeholder.png"
+    "description": "Dr. Ryan Stowe visited the University of Louisville for seminar on April 14th, 2023. Dr. Stowe presented <em>A case for Foregrounding Epistemology in College Chemistry</em>"
   },
   {
     "year": "2023",
     "month": "April",
     "title": "University of Nebraska-Lincoln - X-DBER Conference",
-    "date": "04/01/2023",
-    "description": "The Balabanoff group attended the X-DBER conference hosted by the University of Nebraska-Lincoln in April 2023. <b>Cas Koevoets-Beach</b> presented a poster on her research investigating STEM students’ self-assessment.",
-    "image": "/images/placeholder.png"
+    "date": "04/03/2023 - 04/05/2013",
+    "description": "The Balabanoff group attended the X-DBER conference hosted by the University of Nebraska-Lincoln in April 2023. <b>Cas Koevoets-Beach</b> presented a poster on her research investigating STEM students’ self-assessment."
   },
   {
     "year": "2023",
     "month": "March",
     "title": "UofL Graduate School Regional Research Conference",
     "date": "03/23/2023",
-    "description": "<b>Cas Koevoets-Beach</b> presented a poster at the University of Louisville's Graduate School Regional Research Conference.",
-    "image": "/images/placeholder.png"
+    "description": "<b>Cas Koevoets-Beach</b> presented a poster at the University of Louisville's Graduate School Regional Research Conference."
   },
   {
     "year": "2023",
     "month": "February",
     "title": "Western Kentucky University CER Seminar",
     "date": "02/17/2023 - 02/18/2023",
-    "description": "<b>Dr. Morgan Balabanoff</b> visited Western Kentucky University for a seminar",
-    "image": "/images/placeholder.png"
+    "description": "<b>Dr. Morgan Balabanoff</b> visited Western Kentucky University for a seminar"
   },
   {
     "year": "2023",
     "month": "February",
     "title": "Meet the new postdoc",
     "date": "02/03/2023",
-    "description": "<b>Emmanuel Echeverri-Jimenez</b> finished his Ph.D. at North Carolina State University supervised by Dr. Maria Oliver-Hoyo. At NC State, he developed a Virtual Reality Learning Environment to support students' spatial abilities as they extracted, represented, and predicted stereochemical outcomes for the Diels-Alder reaction. At the Balabanoff group, Emmanuel will focus on exploring students' epistemic knowledge in the context of atomic models, and its contrast with corriculum expectations.",
-    "image": "/images/placeholder.png"
+    "description": "<b>Emmanuel Echeverri-Jimenez</b> finished his Ph.D. at North Carolina State University supervised by Dr. Maria Oliver-Hoyo. At NC State, he developed a Virtual Reality Learning Environment to support students' spatial abilities as they extracted, represented, and predicted stereochemical outcomes for the Diels-Alder reaction. At the Balabanoff group, Emmanuel will focus on exploring students' epistemic knowledge in the context of atomic models, and its contrast with corriculum expectations."
   },
   {
     "year": "2023",
     "month": "January",
     "title": "Southeastern STEM Education Research Conference",
     "date": "1/13/2023 - 1/14/2024",
-    "description": "The Balabanoff Group attended the 2023 Southeastern Science Education Research Conference at Tennessee Tech University. <b>Taylor Humphreys</b> and <b>Karen Julian</b> presented their research at the Undergraduate Summer Research Poster Session. This work was part of the Mentored Undergraduate Research Grant program where both Taylor and Karen were mentored by <b>Cas Koevoets-Beach</b>, who also presented her work at the conference.",
-    "image": "/images/placeholder.png"
+    "description": "The Balabanoff Group attended the 2023 Southeastern Science Education Research Conference at Tennessee Tech University. <b>Taylor Humphreys</b> and <b>Karen Julian</b> presented their research at the Undergraduate Summer Research Poster Session. This work was part of the Mentored Undergraduate Research Grant program where both Taylor and Karen were mentored by <b>Cas Koevoets-Beach</b>, who also presented her work at the conference."
   },
   {
     "year": "2022",
     "month": "October",
     "title": "Murray State University Seminar",
     "date": "10/10/2022",
-    "description": "<b>Dr. Morgan Balabanoff</b> visited Murray State University for a seminar.",
-    "image": "/images/placeholder.png"
+    "description": "<b>Dr. Morgan Balabanoff</b> visited Murray State University for a seminar."
   },
   {
     "year": "2022",
     "month": "September",
     "title": "Step Forward for the Ph.D. Candidate!",
     "date": "09/29/2022",
-    "description": "<b>Cas Koevoets-Beach</b> successfully completed her literature seminar presentation. She presented works focusing on NMR and scaffolding.",
-    "image": "/images/placeholder.png"
+    "description": "<b>Cas Koevoets-Beach</b> successfully completed her literature seminar presentation. She presented works focusing on NMR and scaffolding."
   },
   {
     "year": "2022",
     "month": "September",
     "title": "Dr. Justin Carmel Visit",
     "date": "09/11/2022",
-    "description": "<b>Dr. Justin Carmel</b> for seminar on November 11, 2022. Dr. Carmel presented the talk: 'Investigating Sociocultural and Environmental Factors Related to Students’ Chemistry Identity Development'.",
-    "image": "/images/placeholder.png"
+    "description": "<b>Dr. Justin Carmel</b> for seminar on November 11, 2022. Dr. Carmel presented the talk: 'Investigating Sociocultural and Environmental Factors Related to Students’ Chemistry Identity Development'."
   },
   {
     "year": "2022",
     "month": "August",
     "title": "2022 Biennial Conference on Chemical Education",
     "date": "07/31/2022 - 08/04/2022",
-    "description": "The Balabanoff group attended the BCCE at Purdue University where <b>Dr. Balabanoff</b> presented the talk: 'The Water Instrument: Assessment of Fundamental Concepts in General Chemistry'",
-    "image": "/images/placeholder.png"
+    "description": "The Balabanoff group attended the BCCE at Purdue University where <b>Dr. Balabanoff</b> presented the talk: 'The Water Instrument: Assessment of Fundamental Concepts in General Chemistry'"
   },
   {
     "year": "2022",
     "month": "January",
     "title": "Balabanoff Group Foundation!",
     "date": "01/15/2022",
-    "description": "Dr. Balabanoff founded her Chemistry Education Research Group!",
-    "image": "/images/placeholder.png"
+    "description": "Dr. Balabanoff founded her Chemistry Education Research Group!"
   }
 ]

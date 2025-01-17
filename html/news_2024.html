@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Balabanoff Group - Blog">
+    <title>Balabanoff Group - Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Source+Serif+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <script type="module" src="../js/nav.js"></script>
+    <script type="module" src="../js/news_generator.js"></script>
+    <link rel="icon" type="image/png" href="../icons/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="../icons/favicon-16x16.png" sizes="16x16"/>
+  </head>
+
+<body>
+  <main>
+    <section class="nav_panel"></section>
+    
+    <section class="blogpost">
+      <header>
+        <div class="content_wrap content_title">
+          <h1>News</h1>
+        </div>
+      </header>
+      <div class="content_wrap" id="2024">
+        <!-- this portion is populated by news_generator.js -->
+      </div>  
+    </section>
+    <div class="content_wrap">
+      <button class="year_button" href="back" onclick="window.location.href='../html/news.html';">go back</button>
+    </div>
+  </main>
+</body>

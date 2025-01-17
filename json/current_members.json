@@ -47,5 +47,12 @@
     "description": "Daniel earned his B.A. in Chemistry from the University of Louisville in 2024. He joined the Balabanoff Group in the summer of 2023. His research interest is student reasoning in organic chemistry. Outside of work, Daniel enjoys playing and watching baseball, soccer (the real football), and reading.",
     "picture": "../images/Mays_picture.png",
     "email": "daniel.mays@louisville.edu" 
+  },
+  {
+    "name": "Donya Kurdi",
+    "degree": "Undergraduate Student",
+    "description": "Donya is currently an undergrad at the University of Louisville pursing a bachelors in Neuroscience and a minor in Middle Eastern and Islamic studies with a pre-med track. She joined the Balabanoff Group in March 2024 assisting in researching students confidence. Donya also works as a Patient Care Tech at Baptist Health and enjoys going to the gym and reading.",
+    "picture": "../images/Kurdi_picture.jpg",
+    "email": "donya.kurdi@louisville.edu" 
   }
 ]

@@ -6,7 +6,7 @@ const navContent =`
   <li><a class="btn" href="../html/news.html">News</a></li>
   <li><a class="btn" href="../html/publications.html">Publications</a></li>
   <li><a class="btn" href="../html/contact.html">Contact</a></li>
-  <li><a class="btn" href="../reaction_viewer/index.html">ReactView</a></li>
+  // <li><a class="btn" href="../reaction_viewer/index.html">ReactView</a></li>
 `;
 
 const mainNav = document.createElement("nav");
